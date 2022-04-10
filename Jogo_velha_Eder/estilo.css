@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    background-color: #0C4AAC;
+}
+
+.quadrado{
+    text-align: center;
+    width: 70px;
+    background-color: #AD7A11;
+    display: inline-block;/*mesma linha,sem ocupar espaço da direita*/
+    padding: 30px;
+    font-size: 50px;
+    margin: 5px;
+    cursor: pointer;/*mãozinha*/
+    color: #AD7A11;/*mesma cor background para desaparecer*/
+}
+
+.jogador, .vencedor{    
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: blanchedalmond;
+    cursor: pointer;
+}
